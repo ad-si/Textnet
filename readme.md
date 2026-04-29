@@ -37,7 +37,13 @@ Check out the full list at the "Index" section down below.
 - As a EPUB by converting it with pandoc:
   `pandoc --from markdown --output textnet.epub https://textnet.ad-si.com/index.md`
 - As a PDF by converting it with pandoc:
-  `pandoc -f markdown -o textnet.pdf --latex-engine=xelatex https://textnet.ad-si.com/index.md`
+  ```sh
+  pandoc \
+    --from markdown \
+    --output textnet.pdf \
+    --pdf-engine=tectonic \
+    https://textnet.ad-si.com/index.md
+  ```
 
 
 ### How can I publish something?
