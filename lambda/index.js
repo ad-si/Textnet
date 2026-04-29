@@ -59,7 +59,7 @@ function main (event = {}, context, requestCallback) {
     ansifyResponse(response)
   }
   else {
-    // Only thoses browsers handle text/markdown correctly
+    // Only those browsers handle text/markdown correctly
     if (/(chrome|safari)/i.test(userAgent)) {
       response.headers['Content-Type'] = getContentType('text', 'markdown')
     }

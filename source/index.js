@@ -57,7 +57,7 @@ module.exports = (acceptHeader, userAgent) => {
     // Keep response as is
   }
   else {
-    // Only thoses browsers handle text/markdown correctly
+    // Only those browsers handle text/markdown correctly
     if (/(chrome|safari)/i.test(userAgent)) {
       response.headers['content-type'] = getContentType('text', 'markdown')
     }

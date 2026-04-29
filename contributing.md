@@ -1,3 +1,3 @@
 # Contributing
 
-`functions` constains the functions for <https://stdlib.com>.
+`functions` contains the functions for <https://stdlib.com>.

@@ -99,7 +99,7 @@ ______\_/________\_/____
 
 <http://json.org/#html> is only considered human readable
 for really small files and when pretty printed.
-<https://www.w3.org/XML/#html> ist definitely not human readable!
+<https://www.w3.org/XML/#html> is definitely not human readable!
 
 If your text contains links which link to HTML (normal) websites
 please make sure that the URL indicates this, either by linking
