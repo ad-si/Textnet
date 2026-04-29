@@ -131,7 +131,7 @@ use the optional http header field "Content-Type" for it.
 
 This is just a small subset of the Textnet.
 If you want your page to be featured,
-please submit a link on <https://github.com/adius/textnet>.
+please submit a link on <https://github.com/ad-si/textnet>.
 
 
 ### Weather

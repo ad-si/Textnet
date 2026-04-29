@@ -28,7 +28,7 @@
   "private": true,
   "stdlib": {
     "build": "faaslang",
-    "name": "adius/textnet",
+    "name": "ad-si/textnet",
     "timeout": 5000,
     "publish": true,
     "personalize": {
