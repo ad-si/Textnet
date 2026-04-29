@@ -1,29 +1,29 @@
-all:
+.PHONY: help
+help: makefile
+	@tail -n +4 makefile | grep ".PHONY"
 
+
+.PHONY: deploy
 deploy: stdlib-deploy
 
+
 # Deploy for testing
+.PHONY: stdlib-deploy-dev
 stdlib-deploy-dev:
 	lib up dev
 
+
 # Deploy a release
 # Attention: Package file version must be updated before
+.PHONY: stdlib-deploy
 stdlib-deploy:
 	lib release
 
-# deploy:
-# 	s3cmd sync --acl-public readme.md s3://textnet.io
-# 	s3cmd modify \
-# 		--add-header='Content-Type: text/markdown; charset=utf-8' \
-# 		--add-header='X-Content-Type-Options: nosniff' \
-# 		s3://textnet.io/readme.md
 
-
+.PHONY: aws-deploy
 aws-deploy: index.main sun.main
 
+
+.PHONY: %.main
 %.main: %.js
 	serverless deploy function --function $*
-
-.PHONY: all deploy
-.PHONY: stdlib-deploy-dev stdlib-deploy
-.PHONY: aws-deploy %.main
