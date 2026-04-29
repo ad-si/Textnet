@@ -194,6 +194,3 @@ Custom IP address:
 This website was created by [Adrian Sieber](https://adriansieber.com#html),
 who got fed up by shitty websites which take forever to load and look awful,
 although they contain minimal content (e.g. weather forecast for tomorrow).
-
-This work is also sponsored by <https://feram.io#html>.
-A service which automatically finds & fixes bugs in code.
