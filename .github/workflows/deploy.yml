@@ -26,7 +26,7 @@ jobs:
       - name: Build site
         run: |
           mkdir -p _site
-          cp readme.md _site/readme.md
+          cp readme.md _site/index.md
           {
             echo '<pre>'
             sed -e 's/&/\&amp;/g' -e 's/</\&lt;/g' -e 's/>/\&gt;/g' readme.md
