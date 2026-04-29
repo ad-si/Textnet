@@ -19,8 +19,8 @@ consisting only of human-readable plain text content.
 
 ### Can you give me some examples?
 
-- <http://icanhazip.com>
-- <https://tools.ietf.org/rfc/rfc20.txt>
+- <https://icanhazip.com>
+- <https://www.rfc-editor.org/rfc/rfc20.txt>
 
 Check out the full list at the "Index" section down below.
 
@@ -28,16 +28,16 @@ Check out the full list at the "Index" section down below.
 ### How am I supposed to consume this?
 
 - As plain text with any browser
-- As plain text on your command line: `curl -L http://textnet.io`
+- As plain text on your command line: `curl https://textnet.ad-si.com`
 - With a browser extension which can render markdown
   (e.g. <https://github.com/simov/markdown-viewer>,
   or <https://goo.gl/unXkFA> which can even render LaTeX math equations)
   For extensions which only trigger on `.md` URLs you can open the original
-  file for this page at <http://textnet.io/readme.md>.
+  file for this page at <https://textnet.ad-si.com/index.md>.
 - As a EPUB by converting it with pandoc:
-  `pandoc --from markdown --output textnet.epub http://textnet.io`
+  `pandoc --from markdown --output textnet.epub https://textnet.ad-si.com/index.md`
 - As a PDF by converting it with pandoc:
-  `pandoc -f markdown -o textnet.pdf --latex-engine=xelatex http://textnet.io`
+  `pandoc -f markdown -o textnet.pdf --latex-engine=xelatex https://textnet.ad-si.com/index.md`
 
 
 ### How can I publish something?
@@ -48,7 +48,7 @@ For example:
 - <https://surge.sh/#html>
 - <https://netlify.com/#html>
 - <https://neocities.org/#html>
-- <https://aws.amazon.com/s3/#html> - That's where textnet.io is hosted.
+- <https://aws.amazon.com/s3/#html> - That's where textnet.ad-si.com is hosted.
 
 Or get your own (virtual) server on e.g.
 
@@ -57,7 +57,7 @@ Or get your own (virtual) server on e.g.
 - <https://digitalocean.com/#html>
 
 and use server software like <https://nginx.org/#html> or
-<http://apache.org/#html> to deliver the pages.
+<https://apache.org/#html> to deliver the pages.
 
 
 ### What are good programs to create a Textnet site?
@@ -70,7 +70,7 @@ Good programs are macOS' default TextEdit and Window's default Notepad,
 but also more sophisticated programs like <https://atom.io/#html>,
 <https://code.visualstudio.com/#html>.
 
-There are also several online editors like <http://dillinger.io/#html>
+There are also several online editors like <https://dillinger.io/#html>
 and <https://gist.github.com/#html>
 
 
@@ -81,11 +81,11 @@ just like the page you're currently reading.
 It is easily readable and has become the de facto standard
 for plain text content.
 It also means the site can be rendered with a more sophisticated design
-if one likes to do so (e.g. with <http://pandoc.org/#html>) .
-Check out <http://commonmark.org/#html> for in depth documentation.
+if one likes to do so (e.g. with <https://pandoc.org/#html>) .
+Check out <https://commonmark.org/#html> for in depth documentation.
 
-Other good formats are <http://yaml.org/#html> for pure data,
-<http://asciidoc.org/#html> for more sophisticated tables
+Other good formats are <https://yaml.org/#html> for pure data,
+<https://asciidoc.org/#html> for more sophisticated tables
 and ASCII- / ANSI-art for graphical content. E.g.
 
 ```
@@ -97,14 +97,14 @@ and ASCII- / ANSI-art for graphical content. E.g.
 ______\_/________\_/____
 ```
 
-<http://json.org/#html> is only considered human readable
+<https://json.org/#html> is only considered human readable
 for really small files and when pretty printed.
 <https://www.w3.org/XML/#html> is definitely not human readable!
 
 If your text contains links which link to HTML (normal) websites
 please make sure that the URL indicates this, either by linking
-directly to a HTML file (e.g. <http://example.com/index.html>) or
-adding a HTML hash (e.g. <http://example.com/#html>)
+directly to a HTML file (e.g. <https://example.com/index.html>) or
+adding a HTML hash (e.g. <https://example.com/#html>)
 
 Math should be written in LaTeX and to enable rendering for markdown viewers
 enclose them in `$` delimiters. For example:
@@ -130,44 +130,44 @@ please submit a link on <https://github.com/adius/textnet>.
 
 ### Weather
 
-- <http://wttr.in> or <http://wttr.in/Berlin> - Weather forecast.
-- <http://wttr.in/moon> - Current moonphase.
+- <https://wttr.in> or <https://wttr.in/Berlin> - Weather forecast.
+- <https://wttr.in/moon> - Current moonphase.
 
 
 ### Tools
 
-- <http://qrenco.de> - Create QR code of a string
+- <https://qrenco.de> - Create QR code of a string
 
 
 ### IP Address Services
 
 Your IP address:
 
-- <http://canihazip.com/s>
-- <http://ipinfo.io/ip> - JSON response with additional data.
-- <http://icanhazip.com>
-- <http://curlmyip.net>
-- <http://ipecho.net/plain>
-- <http://ifcfg.me>
+- <https://canihazip.com/s>
+- <https://ipinfo.io/ip> - JSON response with additional data.
+- <https://icanhazip.com>
+- <https://curlmyip.net>
+- <https://ipecho.net/plain>
+- <https://ifcfg.me>
 
 Custom IP address:
 
-- <http://ipinfo.io/8.8.8.8>
-- <http://ipinfo.io/8.8.8.8/loc>
+- <https://ipinfo.io/8.8.8.8>
+- <https://ipinfo.io/8.8.8.8/loc>
 
 
 ### Text Sharing (Pastebin)
 
-- <http://ix.io> -
+- <https://ix.io> -
   E.g. `echo Hello world | curl -F 'f:1=<-' ix.io` returns link
-  to uploaded resource: <http://ix.io/fpW>
-- <http://sprunge.us>
-- <http://ptpb.pw>
+  to uploaded resource: <https://ix.io/fpW>
+- <https://sprunge.us>
+- <https://ptpb.pw>
 
 
 ### Manuals / Documentation
 
-- <http://cheat.sh> - UNIX / Linux command cheat sheets.
+- <https://cheat.sh> - UNIX / Linux command cheat sheets.
 - All RFC documents are accessible in plain text.
   (e.g. the HTTP specification: <https://tools.ietf.org/rfc/rfc2616.txt>)
 
@@ -179,14 +179,14 @@ Custom IP address:
 
 ### Generators
 
-- <http://whatthecommit.com/index.txt> — Really bad commit messages.
+- <https://whatthecommit.com/index.txt> — Really bad commit messages.
 
 
 ### Registries
 
-- <http://textfiles.com/#html> - Large collection of plain text files.
-- <http://tldp.org/HOWTO/text/#html> - Plain text how tos for Linux
-  (e.g. How to make coffee 😂: <http://tldp.org/HOWTO/text/Coffee>).
+- <https://textfiles.com/#html> - Large collection of plain text files.
+- <https://tldp.org/HOWTO/text/#html> - Plain text how tos for Linux
+  (e.g. How to make coffee 😂: <https://tldp.org/HOWTO/text/Coffee>).
 
 
 ## About
